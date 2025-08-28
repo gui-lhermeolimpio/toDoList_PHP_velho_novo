@@ -8,13 +8,17 @@
 <body>
     <h1>Lista de Tarefas</h1>
     <form action="" method="POST">
-        <input type="text" name="task" placeholder="Nova tarefa" required>
+        <input type="text" name="task" placeholder="Nova tarefa">
         <button type="submit">Adicionar</button>
     </form>
+
     <ul>
         <li>Tarefa 1</li>
+        <form method="DELETE">
+        <input type="submit" name="taskDelete" value="Apagar tarefa">
+        </form>
         <li>Tarefa 2</li>
-        <li>Tarefa 5672</li>
+        <li>Tarefa 3</li>
     </ul>
 </body>
 </html>
